@@ -19,16 +19,17 @@ function (firstName, lastName, age){
 }
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input                  | Output              |
+| -----                  | ------              |
+|  Brad, Slagle, 2       | Brad Slagle 2       | 
+|  Tiffany, Warren, 3    | Tiffany Warren 3    | 
+|  Kyle Coberly ,4       | Kyle Coberly 4      | 
+|                        |                     | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This function creates an object called person that has information for firstName, lastName and age and returns the person object when called.</td>
   </tr>
 </table>
 
