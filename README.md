@@ -21,15 +21,23 @@ function (firstName, lastName, age){
 
 | Input                  | Output              |
 | -----                  | ------              |
-|  Brad, Slagle, 2       | Brad Slagle 2       | 
-|  Tiffany, Warren, 3    | Tiffany Warren 3    | 
-|  Kyle Coberly ,4       | Kyle Coberly 4      | 
+|  Brad, Slagle, 2       | {firstName: Brad    |
+|                        |  lastName: Slagle   | 
+|                        |   age: 2  }         | 
+|                        |                     |
+|  Tiffany, Warren, 3    | {firstName: Tiffany |
+|                        |  lastName: Warren   | 
+|                        |  age: 3 }           |
+|                        |                     |
+| Kyle, Coberly, 4       | {firstName: Kyle    |
+|                        |  lastName: Coberly  |
+|                        |  age: 4 }           | 
 |                        |                     | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>This function creates an object called person that has information for firstName, lastName and age and returns the person object when called.</td>
+    <td>This function creates an object called person that has information for firstName, lastName and age and stores the information in threturns the person object when called.</td>
   </tr>
 </table>
 
@@ -38,3 +46,4 @@ function (firstName, lastName, age){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
+**
