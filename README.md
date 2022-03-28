@@ -21,18 +21,10 @@ function (firstName, lastName, age){
 
 | Input                  | Output              |
 | -----                  | ------              |
-|  Brad, Slagle, 2       | {firstName: Brad    |
-|                        |  lastName: Slagle   | 
-|                        |   age: 2  }         | 
-|                        |                     |
-|  Tiffany, Warren, 3    | {firstName: Tiffany |
-|                        |  lastName: Warren   | 
-|                        |  age: 3 }           |
-|                        |                     |
-| Kyle, Coberly, 4       | {firstName: Kyle    |
-|                        |  lastName: Coberly  |
-|                        |  age: 4 }           | 
-|                        |                     | 
+|  Brad, Slagle, 2       | { firstName: "Brad", lastName: "Slagle", age: 2  } | 
+|  Tiffany, Warren, 3    | { firstName: "Tiffany", lastName: "Warren", age: 3 }  |        
+|  Kyle, Coberly, 4      | { firstName: "Kyle", lastName: "Coberly", age: 4 } | 
+ 
 
 <table>
   <tr>
